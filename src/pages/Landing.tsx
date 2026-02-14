@@ -217,11 +217,16 @@ export default function Landing() {
             </div>
             <div className="flex-1 w-full flex justify-center">
               <div className="relative">
-                <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-card bg-muted aspect-[4/3] w-full max-w-[500px] min-h-[350px] relative">
+                <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-card bg-gradient-to-br from-primary/5 to-secondary/5 aspect-[4/3] w-full max-w-[500px] min-h-[350px] relative flex items-center justify-center">
+                  <div className="absolute inset-0 flex items-center justify-center text-muted-foreground text-sm">
+                    Connecting...
+                  </div>
                   <img
-                    src="https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&q=80&w=1200"
-                    alt="Relationship Support Illustration"
-                    className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-all duration-1000"
+                    src="https://images.pexels.com/photos/4098232/pexels-photo-4098232.jpeg?auto=compress&cs=tinysrgb&w=1200"
+                    alt="Empathy and Connection"
+                    className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-all duration-1000 z-10"
+                    onLoad={(e) => (e.currentTarget.style.opacity = '1')}
+                    style={{ opacity: 0 }}
                   />
                 </div>
                 <div className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-lg border border-white/20 p-4 rounded-2xl shadow-xl animate-float">
