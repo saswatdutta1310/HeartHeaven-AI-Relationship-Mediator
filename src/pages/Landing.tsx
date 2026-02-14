@@ -219,9 +219,9 @@ export default function Landing() {
               <div className="relative">
                 <div className="rounded-3xl overflow-hidden shadow-2xl border-8 border-card">
                   <img
-                    src="https://images.unsplash.com/photo-1516589174184-c68500114b63?auto=format&fit=crop&q=80&w=800"
-                    alt="Understanding"
-                    className="w-full max-w-[400px] rounded-2xl"
+                    src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80&w=800"
+                    alt="Understanding Emotions"
+                    className="w-full max-w-[400px] rounded-2xl transform hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-lg border border-white/20 p-4 rounded-2xl shadow-xl animate-float">
