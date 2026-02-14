@@ -217,12 +217,11 @@ export default function Landing() {
             </div>
             <div className="flex-1 w-full flex justify-center">
               <div className="relative">
-                <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-card bg-muted aspect-[4/3] w-full max-w-[500px]">
+                <div className="rounded-[2.5rem] overflow-hidden shadow-2xl border-8 border-card bg-muted aspect-[4/3] w-full max-w-[500px] min-h-[350px] relative">
                   <img
-                    src="https://images.unsplash.com/photo-1516589174184-c68500114b63?q=80&w=1200&auto=format&fit=crop"
-                    alt="Relationship Clarity Illustration"
-                    className="w-full h-full object-cover transform hover:scale-105 transition-all duration-1000"
-                    loading="lazy"
+                    src="https://images.unsplash.com/photo-1521791136064-7986c2923216?auto=format&fit=crop&q=80&w=1200"
+                    alt="Relationship Support Illustration"
+                    className="absolute inset-0 w-full h-full object-cover transform hover:scale-105 transition-all duration-1000"
                   />
                 </div>
                 <div className="absolute -top-4 -right-4 bg-white/10 backdrop-blur-lg border border-white/20 p-4 rounded-2xl shadow-xl animate-float">
