@@ -1,10 +1,17 @@
 # 💜 HeartHeaven 🕊️
 > **Translate Emotions. Heal Minds. Find Clarity.**
 
+<div align="center">
+
+![MERN Stack](https://img.shields.io/badge/MERN-Stack-blue?style=for-the-badge&logo=mongodb&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+
+</div>
 
 ---
 
@@ -58,45 +65,69 @@ A high-level view of your emotional journey.
 
 ---
 
-## 📐 Architecture Diagram
+## 📐 Architecture Diagram (MERN Stack)
 
 ```mermaid
-graph TD
-    User([User])
-    UI[React 18 Frontend - Vite]
-    State[Context API / React Query]
-    Storage[(Browser LocalStorage)]
-    AI_Core[AI Engine - NLP & Pattern Logic]
+graph TB
+    %% Nodes
+    User((👤 User))
 
-    User -->|Interacts| UI
-    UI -->|Global State| State
-    State -->|Persistence| Storage
-    UI -->|Process Emotions| AI_Core
-    UI -->|Analyze Behaviors| AI_Core
-    UI -->|Render Data| UI
+    subgraph Client_Layer ["💻 CLIENT SIDE (React.js)"]
+        UI[Vite + React 18 UI]
+        State[React Context / TanStack Query]
+        Framer[Framer Motion Animations]
+    end
+
+    subgraph Server_Layer ["⚙️ SERVER SIDE (Node.js)"]
+        Express[Express.js Framework]
+        API[RESTful API Gateway]
+        AI_Logic[AI Pattern Logic & NLP]
+    end
+
+    subgraph Data_Layer ["🗄️ DATA STORAGE"]
+        DB[(MongoDB Atlas)]
+        Storage[(Local Storage - Cache)]
+    end
+
+    %% Connections
+    User <--> |Interacts with| UI
+    UI <--> |Data Flow| State
+    State <--> |API Calls| API
+    API <--> |Routing| Express
+    Express <--> |Process Intelligence| AI_Logic
+    AI_Logic <--> |Query/Update| DB
+    State -.-> |Persist State| Storage
+
+    %% Styling
+    style User fill:#fff7ed,stroke:#f97316,stroke-width:2px
+    style Client_Layer fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#4c1d95
+    style Server_Layer fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e3a8a
+    style Data_Layer fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#064e3b
+    style UI fill:#fff,stroke:#8b5cf6
+    style Express fill:#fff,stroke:#3b82f6
+    style DB fill:#fff,stroke:#10b981
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-### Frontend Core
-- **React 18**: High-performance UI library.
-- **TypeScript**: Ensuring reliable handling of sensitive user data.
-- **Vite**: Ultra-fast build tool.
-- **React Router DOM**: Declarative routing.
+### 📱 Frontend (React Ecosystem)
+- **React 18**: High-performance UI library for component-based architecture.
+- **TypeScript**: Type-safe development for complex emotional data handling.
+- **Vite**: Modern frontend tooling for lightning-fast HMR and builds.
+- **Tailwind CSS & Shadcn UI**: Professional design system with utility-first styling.
+- **Framer Motion**: Smooth, physics-based micro-interactions and animations.
 
-### Styling & UI
-- **Tailwind CSS**: Utility-first CSS for premium design.
-- **Shadcn UI**: Accessible components built on Radix UI.
-- **Framer Motion**: Advanced physics-based animations.
-- **Lucide React**: consistent icons.
+### ⚙️ Backend & AI (Node/Express)
+- **Node.js**: Asynchronous event-driven JavaScript runtime.
+- **Express.js**: Minimalist web framework for building robust REST APIs.
+- **AI Core**: Custom NLP algorithms for sentiment analysis and empathy mapping.
 
-### Data & Logic
-- **Recharts**: Data visualization.
-- **React Hook Form + Zod**: Schema-first form validation.
-- **TanStack Query (v5)**: State management.
-- **LocalStorage API**: Client-side persistence.
+### 🗄️ Persistence & Data
+- **MongoDB Atlas**: Scalable NoSQL database for relationship tracking and history.
+- **TanStack Query (v5)**: Powerful asynchronous state management and caching.
+- **Zod**: Schema-first validation for data integrity.
 
 ---
 
@@ -137,7 +168,7 @@ npm run preview # Preview production build
 
 ## 🎬 Final Output
 ### 🌐 Live Demo
-[View Live Project on Vercel](https://heart-sync-weld.vercel.app/)
+[View Live Project on Vercel](https://heart-heaven-ai-relationship-mediat.vercel.app/)
 
 ## 🤝 Team BYTE BUSTERS
 - **Saswat Dutta** - Full Stack Developer
