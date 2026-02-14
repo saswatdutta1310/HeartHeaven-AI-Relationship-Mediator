@@ -97,15 +97,6 @@ graph TB
     Express <--> |Process Intelligence| AI_Logic
     AI_Logic <--> |Query/Update| DB
     State -.-> |Persist State| Storage
-
-    %% Styling
-    style User fill:#fff7ed,stroke:#f97316,stroke-width:2px
-    style Client_Layer fill:#f5f3ff,stroke:#8b5cf6,stroke-width:2px,color:#4c1d95
-    style Server_Layer fill:#eff6ff,stroke:#3b82f6,stroke-width:2px,color:#1e3a8a
-    style Data_Layer fill:#ecfdf5,stroke:#10b981,stroke-width:2px,color:#064e3b
-    style UI fill:#fff,stroke:#8b5cf6
-    style Express fill:#fff,stroke:#3b82f6
-    style DB fill:#fff,stroke:#10b981
 ```
 
 ---
