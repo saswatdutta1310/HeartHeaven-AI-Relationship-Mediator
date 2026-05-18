@@ -118,7 +118,7 @@ graph TB
 ### 🗄️ Persistence & Data
 - **MongoDB Atlas**: Scalable NoSQL database for relationship tracking and history.
 - **TanStack Query (v5)**: Powerful asynchronous state management and caching.
-- **Zod**: Schema-first validation for data integrity.
+- **Zod**: Schema-first validation  data integrity.
 
 ---
 
