@@ -32,7 +32,7 @@ HeartHeaven is an AI-powered emotional intelligence platform that acts as a **24
 
 ### How it solves the crisis:
 - **Instant De-escalation**: By using the **Emotional Translator**, users can convert raw anger into "I-statements" that focus on vulnerability rather than blame.
-- **Pattern Recognition**: The **Flag Detector** provides an objective library of behaviors, helping users remove "emotional fog" and see their situation clearly based on defined psychological markers.
+- **Pattern Recognition**: The **Flag Detector** provides objective library of behaviors, helping users remove "emotional fog" and see their situation clearly based on defined psychological markers.
 - **Physiological Calming**: The **Safe Space** integrates box-breathing exercises to lower cortisol levels before a user engages in a difficult conversation.
 - **Data-Driven Growth**: The **Relationship Dashboard** turns abstract feelings into trackable metrics, allowing users to see progress over time.
 
