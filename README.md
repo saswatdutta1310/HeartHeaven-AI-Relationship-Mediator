@@ -1,5 +1,5 @@
 # 💜 HeartHeaven 🕊️
-> **Translate Emotions. Heal Minds. Find Clarity.**
+> **Translate Emotions - Heal Minds - Find Clarity.**
 
 <div align="center">
 
