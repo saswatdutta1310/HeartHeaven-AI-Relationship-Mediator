@@ -162,11 +162,7 @@ npm run preview # Preview production build
 [View Live Project on Vercel](https://heart-heaven-ai-relationship-mediat.vercel.app/)
 
 ## 🤝 Team BYTE BUSTERS
-- **Saswat Dutta** - Full Stack Developer
-- **Jaiman M Vaidya** - Full Stack Developer
-- **Prabhakar Shukla** - Database Engineer
-- **Aditya Kumar** - Frontend Developer
-- **Dharitri Padhi** - Idea Innovator
+
 
 ---
 
